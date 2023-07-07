@@ -23,3 +23,95 @@
     margin-right: 35px;
     cursor: pointer;
 }
+.banner-container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: rgba(0, 0, 0, 0.818);
+background-image: url("../images/background.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+
+}
+.banner-text{
+ color: white;
+}
+.banner-text> h1{
+ font-size: 50px;
+}
+.banner-text> p{
+ font-size: 18px;
+ margin-top: 15px;
+}
+.btn{
+background: red;
+color: #ffff;
+padding: 13px 20px;
+margin-top: 20px;
+border-radius: 5px;
+border-style: none;
+}
+.banner-img> img{
+    width: 300px;
+}
+.aboutcon{
+    padding: 20px;
+
+}
+.aboutcon> h1{
+    text-align: center;
+    font-size: 54px;
+    font-weight: bold;
+    
+}
+.aboutbox{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.aboutimg> img{
+width: 300px;
+}
+.abouttext> h3{
+font-size: 25px;
+margin-bottom: 10px;
+}
+.ssec{
+    background: #131212;
+    padding: 80px;
+}
+.ssec> h2{
+    color: #ffff;
+    font-size: 54px;
+    text-align: center;
+  
+}
+
+.scon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box> img{
+    width: 70px;
+}
+.box{
+   padding: 20px;
+   margin: 20px;
+    width: 200px;
+    background-color: black ;
+    text-align: center;
+    box-shadow: 4px 5px 40px rgb(198, 195, 195);
+    color: #ffff;
+    border-radius: 10px;
+}
+.box> h3{
+    margin: 20px 0px;
+}
+.b{
+    background: #000;
+      
+}
