@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo-img{
+    width: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #4e4c4c;
+    padding: 20px 0px;
+}
+.menu{
+    display: flex;
+    
+}
+.item{
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    margin-right: 35px;
+    cursor: pointer;
+}
